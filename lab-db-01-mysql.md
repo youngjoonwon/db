@@ -30,8 +30,6 @@ $ docker pull mysql:latest
 $ docker pull mysql:8.0
 ```
 
-e.g.)
-
 ```
 young-mbook/~ docker pull mysql:latest
 latest: Pulling from library/mysql
@@ -63,8 +61,6 @@ $ docker run --name docker-mysql -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
 $ docker ps -a
 ```
 
-e.g.)
-
 ```shell
 young-mbook/~ docker run --name docker-mysql -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
 868a42f2a5310844a50547d15a215cfccb40f59d12462976cb6b8d071e86c210
@@ -80,8 +76,6 @@ CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS  
 ```bash
 $ docker exec -it docker-mysql mysql -uroot -p
 ```
-
-e.g.) 
 
 ```shell
 young-mbook/~ docker exec -it docker-mysql mysql -uroot -p
