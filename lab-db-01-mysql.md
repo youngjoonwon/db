@@ -31,7 +31,8 @@ $ docker pull mysql:8.0
 ```
 
 ```
-young-mbook/~ docker pull mysql:latest
+young-mbook/~] docker pull mysql:latest
+
 latest: Pulling from library/mysql
 c72f53f7235b: Pull complete 
 c7e4ed755af2: Pull complete 
@@ -62,9 +63,11 @@ $ docker ps -a
 ```
 
 ```shell
-young-mbook/~ docker run --name docker-mysql -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
+young-mbook/~] docker run --name docker-mysql -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
 868a42f2a5310844a50547d15a215cfccb40f59d12462976cb6b8d071e86c210
-young-mbook/~ docker ps -a
+
+young-mbook/~] docker ps -a
+
 CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                 NAMES
 868a42f2a531   mysql:latest   "docker-entrypoint.s…"   12 seconds ago   Up 12 seconds   3306/tcp, 33060/tcp   docker-mysql
 ```
@@ -78,7 +81,8 @@ $ docker exec -it docker-mysql mysql -uroot -p
 ```
 
 ```shell
-young-mbook/~ docker exec -it docker-mysql mysql -uroot -p
+young-mbook/~] docker exec -it docker-mysql mysql -uroot -p
+
 Enter password: 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 8
