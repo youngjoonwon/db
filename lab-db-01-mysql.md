@@ -11,7 +11,7 @@ install docker desktop (download and install)
 
 <br>
 
-For Mac: open terminal (under Utilities --> Terminal) for Mac
+For Mac: open terminal (Utilities -> Terminal) for Mac
 
 For Windows: open powershell from start menu, right click and choose administrator mode
 
