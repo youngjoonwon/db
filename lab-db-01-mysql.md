@@ -8,6 +8,7 @@ install docker desktop (download and install)
 
 - run your docker desktop
 
+![](./fig/fig-01.png)
 
 <br>
 
