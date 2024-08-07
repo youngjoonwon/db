@@ -64,6 +64,7 @@ $ docker ps -a
 
 ```shell
 young-mbook/~] docker run --name docker-mysql -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
+
 868a42f2a5310844a50547d15a215cfccb40f59d12462976cb6b8d071e86c210
 
 young-mbook/~] docker ps -a
