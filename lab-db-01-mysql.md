@@ -21,7 +21,7 @@ install docker desktop (download and install)
 
 
 ```bash
-$ docker pull mysql:lastest
+$ docker pull mysql:latest
 ```
 
   or (if you want to run mysql version 8.0)
