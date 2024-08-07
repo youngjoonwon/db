@@ -71,7 +71,7 @@ $ docker image ls
 $ docker rm docker-mysql
 ```
 
-- import datafile (csv) to mysql
+- import datafile to mysql
 
 
 ```bash
