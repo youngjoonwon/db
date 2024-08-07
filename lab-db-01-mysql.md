@@ -100,7 +100,7 @@ What's next:
     Learn more at https://docs.docker.com/go/debug-cli/
 ```
 
-You are almost done here.
+**You are almost done here.**
 
 
 
