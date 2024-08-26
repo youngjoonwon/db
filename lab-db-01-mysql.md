@@ -22,14 +22,16 @@ install docker desktop (download and install)
 
 
 ```bash
-$ docker pull mysql:latest
+$docker pull mysql:latest
 ```
 
   or (if you want to run mysql version 8.0)
 
 ```bash
-$ docker pull mysql:8.0
+$docker pull mysql:8.0
 ```
+
+e.g.)
 
 ```
 young-mbook/~] docker pull mysql:latest
@@ -59,9 +61,11 @@ What's next:
 2. create mysql docker
 
 ```bash
-$ docker run --name docker-mysql -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
-$ docker ps -a
+$docker run --name docker-mysql -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
+$docker ps -a
 ```
+
+e.g.)
 
 ```shell
 young-mbook/~] docker run --name docker-mysql -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
@@ -79,8 +83,10 @@ CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS  
 3. start mysql docker
 
 ```bash
-$ docker exec -it docker-mysql mysql -uroot -p
+$docker exec -it docker-mysql mysql -uroot -p
 ```
+
+e.g.)
 
 ```shell
 young-mbook/~] docker exec -it docker-mysql mysql -uroot -p
@@ -113,13 +119,13 @@ What's next:
 4. stop mysql docker
 
 ```bash
-$ docker stop docker-mysql	
+$docker stop docker-mysql	
 ```
 
 5. start mysql docker
 
 ```bash
-$ docker start docker-mysql
+$docker start docker-mysql
 ```
 
 
@@ -129,25 +135,28 @@ $ docker start docker-mysql
 #### other useful commands:
 
 ```bash
-$ docker image ls
+$docker image ls
 ```
 
 ```bash
-$ docker rm docker-mysql
+$docker rm docker-mysql
 ```
 
 - import datafile to mysql
 
+  ```shell
+  $docker exec -i docker-mysql sh -c 'exec mysql -uroot -ppassword' < data.sql
+  ```
 
-```bash
-$ cat data.sql | docker exec -i docker-mysql mysql -uroot -ppassword db_name
-```
+  for windows command prompt  (https://dev.mysql.com/downloads/shell/):
 
-  or
+  ```shell
+  $mysql -p -u root < data.sql
+  ```
 
-```bash
-$ docker exec -i docker-mysql mysql -uroot -ppassword database < data.sql
-```
+  for windows powershell:
 
-
+  ```shell
+  $cmd.exe /c "mysql -u root -p password < data.sql"
+  ```
 
