@@ -4,7 +4,7 @@
 
 install docker desktop (download and install)
 
-- https://docs.docker.com/guides/getting-started/get-docker-desktop/
+- https://docs.docker.com/engine/install/
 
 - run your docker desktop
 
