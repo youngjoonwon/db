@@ -15,15 +15,13 @@ $docker exec -i docker-mysql sh -c 'exec mysql -uroot -ppassword' < ./book.sql
 $docker exec -it docker-mysql mysql -uroot -p
 ```
 
-<br>
-
 the following works in powershell v7.
 
 ```shell
 $Get-Content ./book.sql | docker exec -i docker-mysql sh -c 'exec mysql -uroot -ppassword'
 ```
 
-
+<br>
 
 the sample output should be similar like the followng: (password is '1234' here)
 
