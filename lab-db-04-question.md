@@ -11,7 +11,7 @@
 - In ***yourname-db-lab04.sql***,
 
   ```sql
-  use lab;
+  use library;
   SELECT 'NAME LAB-04' as 'INFO'; /* e.g.) SELECT 'Youngjoon Won LAB-04' as 'INFO'; */
   /* query #1 */
   select ...
