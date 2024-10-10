@@ -60,7 +60,9 @@ mysql> select name from authors INTERSECT select name from translators;
 
 #### c. upload database
 
-again, use ***book.sql*** from our course LMS.
+again, use ***book.sql*** from our course LMS. 
+
+download ***teams.sql*** from our course LMS (available later).
 
 ```bash
 $docker start docker-mysql
