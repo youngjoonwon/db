@@ -8,7 +8,7 @@
 
 - Query #3: show how many books are published between 2022-01-01 and 2024-12-31 (inclusive).
 
-- In ***yourname-db-lab02.sql***,
+- In ***yourname-db-lab-02.sql***,
 
   ```sql
   use lab;
