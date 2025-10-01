@@ -22,5 +22,5 @@
 **Be very careful!**
 
 - Submit it to LMS, sql file only (db-lab-02-question-submission). Check the deadline!
-- DO NOT put any space in your submit file name. e.g.) 'young  db-lab02 .sql' (X). 0 will be given.
+- DO NOT put any space in your submit file name. e.g.) 'young  db-lab-02 .sql' (X). 0 will be given.
 - If your query shows any error, 0 will be given.
