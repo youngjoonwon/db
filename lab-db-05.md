@@ -62,7 +62,7 @@ mysql> select name from authors INTERSECT select name from translators;
 
 again, use ***book.sql*** from our course LMS. 
 
-download ***teams.sql*** from our course LMS (available later).
+download ***teams.sql*** from our course LMS.
 
 ```bash
 $docker start docker-mysql
