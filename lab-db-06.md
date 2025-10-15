@@ -2,11 +2,11 @@
 
 use the same environment from the previous labs (mysql docker instance).
 
-download **data-music.csv** from our course LMS.
+download ***data-music.csv*** from our course LMS.
 
 #### a. create database schema
 
-first, let's take a look at **data-music.csv**. 
+first, let's take a look at ***data-music.csv***. 
 
 ```shell
 $ head -n 5 data-music.csv
@@ -105,7 +105,7 @@ IGNORE 1 ROWS;
 
 we are almost done.
 
-```
+```shell
 $ docker exec -i docker-mysql sh -c 'exec mysql -uroot -ppassword' < ./music.sql
 ```
 
@@ -115,11 +115,11 @@ done! now your database is ready to execute.
 
 again, enter mysql.
 
-```
+```shell
 $ docker exec -it docker-mysql mysql -uroot -p
 ```
 
-```
+```shell
 mysql> use spotify;
 mysql> show tables;
 mysql> desc music;
@@ -128,7 +128,7 @@ mysql> select * from music limit 5;
 
 e.g.)
 
-```
+```shell
 mysql> select * from music limit 5;
 +----+--------------+--------------+-------------+--------+------------------+------+----------+----------+------+-------------+---------+----------------+---------+--------+----------------+------------------+
 | id | acousticness | danceability | duration_ms | energy | instrumentalness | mkey | liveness | loudness | mode | speechiness | tempo   | time_signature | valence | target | song_title     | artist           |
