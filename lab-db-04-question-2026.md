@@ -13,7 +13,7 @@
 - In ***yourname-db-lab-04.sql***,
 
   ```sql
-  use library;
+  use bookstore;
   SELECT 'NAME LAB-04-2026' as 'INFO'; /* e.g.) SELECT 'Youngjoon Won LAB-04' as 'INFO'; */
   /* query #1 */
   select ...
